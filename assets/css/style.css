@@ -1,6 +1,8 @@
 
 body {
 	font-size: 20px;
+	font-family: 'Proxima Nova', Georgia, sans-serif;
+	text-align: center;
 }
 .bg {
 	max-width: 100%;
@@ -37,7 +39,7 @@ body {
 
 }
 
- p {
+p {
 	font-size: 1em;
 	margin-top: 50px;
 
@@ -64,4 +66,61 @@ body {
 .popular h2 {
 	font-size: 2.5em;
 	font-weight: bold;
+}
+
+.container {
+	max-width: 960px;
+}
+
+.row {
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+.col-md-4 {
+	padding: 0;
+}
+
+#img1 {
+	background-image: url(../img/25012317_558032867871139_6130670141177856000_n.jpg);
+}
+#img2 {
+	background-image: url(../img/624f70411b1c931473c66dc6d358d131.jpg);
+}
+#img3 {
+	background-image: url(../img/863c2d6e5ac53ff002880d5e286dfa26.jpg);
+}
+#img4 {
+	background-image: url(../img/a7a1384d369333395c6b17a667568e14.jpg);
+}
+#img5 {
+	background-image: url(../img/cbfbd8e844e429fdb91331c65e911164.jpg);
+}
+#img6 {
+	background-image: url(../img/cf516a520bca52d5d26ba78ab0a3813b.jpg);
+}
+#img7 {
+	background-image: url(../img/e859da69c8f3398dd8b6b0afa4052fbe.jpg);
+}
+#img8 {
+	background-image: url(../img/large.jpg);
+}
+
+#img9 {
+	background-image: url(../img/lofi-and-chill.jpg);
+}
+
+.card {
+	height: 200px;
+	margin: 10px;
+
+}
+
+.card:hover {
+
+}
+
+.card p {
+	margin: 0
 }
