@@ -63,7 +63,7 @@ p {
 	margin: 90px 0 100px 0;
 	
 }
-.popular h2 {
+ h2 {
 	font-size: 2.5em;
 	font-weight: bold;
 }
@@ -76,6 +76,8 @@ p {
 	display: flex;
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
+	margin: 0
+
 }
 
 .col-md-4 {
@@ -116,7 +118,7 @@ p {
 	margin: 10px;
 	color: #fff;
 	border-radius: 6px;
-
+	background-size: contain;
 
 }
 
@@ -151,4 +153,46 @@ p {
 	display: block;
 	position: relative;
 	top: 40%;
+}
+
+.logos {
+	background: #f4f5f7;
+	padding: 70px 0;
+	
+}
+
+.logos ul{
+	list-style-type: none;
+	display: flex;
+	justify-content: space-between;
+
+
+}
+
+.logos a {
+	display: inline-block;
+	vertical-align: middle;
+	width: 90px;
+	height: 90px;
+}
+
+#logo-youtube {
+	background-image: url(../img/youtube.png);
+	background-size: cover
+	
+}
+
+.gray {
+	 filter: none;
+    -webkit-filter: grayscale(100%);
+    -moz-filter:    grayscale(100%);
+    -ms-filter:     grayscale(100%);
+    -o-filter:      grayscale(100%);
+    cursor: pointer;
+    transition: all 1s ease;
+}
+
+.about {
+	padding: 120px 0 60px 0;
+	border-bottom: 1px solid #e8eaed;
 }
