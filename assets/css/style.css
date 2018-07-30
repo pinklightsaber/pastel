@@ -9,7 +9,7 @@ a {
 	color: #7b53c1;
 }
 
-.transparente{
+.barra{
 	background: 0 0;
 	-webkit-transform: translateZ(0);
 	transform: translateZ(0);
@@ -20,24 +20,10 @@ a {
 	align-items: center;
 	display: flex;
 	position: fixed;
-	width: 100%
-
+	width: 100%;
+	z-index:20;
 }
 
-.white {
-
-	background: #f8f9fa;
-	-webkit-transform: translateZ(0);
-	transform: translateZ(0);
-	-webkit-transition: all .3s ease-out;
-	transition: all .3s ease-out;
-	text-align: center;
-	height: 100px;
-	align-items: center;
-	display: flex;
-	position: fixed;
-	width: 100%
-}
 
 .sign {
 	padding: 0 30px;
