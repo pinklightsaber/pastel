@@ -48,7 +48,7 @@ p {
 	margin-top: 50px;
 
 }
-.btn {
+.btn-orange {
 	
 	background-color: #f5a623;
 	padding: 9px 25px;
@@ -59,7 +59,7 @@ p {
 	font-weight: bold;
 }
 
-.btn:hover {
+.btn-orange:hover {
 	background: #e1910c;
 }
 
@@ -320,4 +320,42 @@ p {
 	position: absolute;
 	transform: translate(200px,-150px);
 	opacity: 1;
+}
+
+.quotes {
+	padding: 146px 0 120px;
+text-align: center;
+background: url(https://cdn.rentberry.com/static/dist/assets/images/promo/quote-icon.svg?v=1532674913958) center 70px/56px no-repeat;
+}
+
+.sing-up {
+	background: #f4f5f7;
+	padding: 90px 0;
+}
+
+.btn-purple {
+	background-color: #7b53c1;
+	height: 60px;
+	font-size: 1.2em;
+	box-shadow: 0 14px 24px 0 rgba(50,48,58,.25);
+	border-radius: 6px;
+	color: #fff;
+	width: 220px;
+}
+
+footer {
+	background: #32313a;
+	width: 100%;
+	padding: 47px 0;
+	z-index: 9;
+	position: relative;
+	color: #fff;
+}
+
+footer p {
+	font-size: 0.8em;
+	margin: 0;
+}
+footer small {
+	display: block;
 }
