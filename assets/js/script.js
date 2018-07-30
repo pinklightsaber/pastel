@@ -10,5 +10,13 @@ $(function() {
         }          
     });
 
+    $('li a').on({
+    	mouseenter: function(){
+    		$(this).removeClass('gray');
+    	},
+    	mouseleave: function(){
+    		$(this).addClass('gray');
+    	}});
+
 	
 });
